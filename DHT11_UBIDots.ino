@@ -72,7 +72,7 @@ void setup() {
   Serial.begin(115200);
   WiFi.begin(WIFISSID, PASSWORD);
   // Assign the pin as INPUT 
-  pinMode(SENSOR, INPUT);
+  //pinMode(SENSOR, INPUT);
   dht.begin();
   Serial.println();
   Serial.print("Wait for WiFi...");
